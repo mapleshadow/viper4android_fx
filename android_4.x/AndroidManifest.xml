@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vipercn.viper4android_v2"
+    package="com.vipercn.viper4android4x"
     android:installLocation="auto"
     android:versionCode="2330"
     android:versionName="2.3.3.0" >
@@ -26,7 +26,7 @@
         android:label="@string/app_name"
         android:persistent="true" >
         <activity
-            android:name=".activity.ViPER4Android"
+            android:name="com.vipercn.viper4android4x.activity.ViPER4Android"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="nosensor"
@@ -44,12 +44,12 @@
         </activity>
 
         <service
-            android:name=".service.ViPER4AndroidService"
+            android:name="com.vipercn.viper4android4x.service.ViPER4AndroidService"
             android:enabled="true"
             android:exported="false" >
         </service>
 
-        <receiver android:name=".receiver.BootCompletedReceiver" >
+        <receiver android:name="com.vipercn.viper4android4x.receiver.BootCompletedReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
 

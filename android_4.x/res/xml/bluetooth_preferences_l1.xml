@@ -29,7 +29,7 @@
             android:summaryOn="@string/pref_playback_summary_on"
             android:title="@string/pref_dsp_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="50"
             android:dialogTitle="@string/dialog_effect"
             android:entries="@array/playbackgain_ratio"
@@ -48,7 +48,7 @@
             android:summaryOn="@string/pref_viperddc_summary_on"
             android:title="@string/pref_viperddc_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreferenceDDC
+        <com.vipercn.viper4android4x.preference.SummariedListPreferenceDDC
             android:defaultValue=""
             android:dialogTitle="@string/pref_viperddc_device"
             android:key="viper4android.headphonefx.viperddc.device"
@@ -66,7 +66,7 @@
             android:summaryOn="@string/pref_vse_summary_on"
             android:title="@string/pref_vse_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0.1"
             android:dialogTitle="@string/pref_vse_strength_title"
             android:entries="@array/vse_strength_values"
@@ -86,7 +86,7 @@
             android:summaryOn="@string/pref_equalizer_summary_on"
             android:title="@string/pref_equalizer_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;"
             android:dialogTitle="@string/pref_equalizer_preset_title"
             android:entries="@array/equalizer_preset_modes"
@@ -94,7 +94,7 @@
             android:key="viper4android.headphonefx.fireq"
             android:title="@string/pref_equalizer_preset_title" />
 
-        <com.vipercn.viper4android_v2.preference.EqualizerPreference
+        <com.vipercn.viper4android4x.preference.EqualizerPreference
             android:key="viper4android.headphonefx.fireq.custom" />
 
     </PreferenceCategory>
@@ -109,7 +109,7 @@
             android:summaryOn="@string/pref_convolver_summary_on"
             android:title="@string/pref_convolver_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreferenceWithCustom
+        <com.vipercn.viper4android4x.preference.SummariedListPreferenceWithCustom
             android:defaultValue=""
             android:dialogTitle="@string/pref_convolver_knl_title"
             android:key="viper4android.headphonefx.convolver.kernel"
@@ -127,7 +127,7 @@
             android:summaryOn="@string/pref_colorfulmusic_summary_on"
             android:title="@string/pref_colorfulmusic_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="120;200"
             android:dialogTitle="@string/dialog_colorfulmusic"
             android:entries="@array/colorfulmusic_coeffs"
@@ -135,7 +135,7 @@
             android:key="viper4android.headphonefx.colorfulmusic.coeffs"
             android:title="@string/pref_select_colorfulmusic_title" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="150"
             android:dialogTitle="@string/dialog_colorfulmusic_mi"
             android:entries="@array/colorfulmusic_midimage"
@@ -155,7 +155,7 @@
             android:summaryOn="@string/pref_vhs_summary_on"
             android:title="@string/pref_curesystem_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/dialog_vhs_qual"
             android:entries="@array/vhs_qual"
@@ -175,7 +175,7 @@ android:title="@string/pref_reverb_title" >
             android:summaryOn="@string/pref_reverb_summary_on"
             android:title="@string/pref_reverb_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_roomsize"
@@ -183,7 +183,7 @@ android:title="@string/pref_reverb_title" >
             android:key="viper4android.headphonefx.reverb.roomsize"
             android:title="@string/pref_reverb_roomsize" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_roomwidth"
@@ -191,7 +191,7 @@ android:title="@string/pref_reverb_title" >
             android:key="viper4android.headphonefx.reverb.roomwidth"
             android:title="@string/pref_reverb_width" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_percent"
@@ -199,7 +199,7 @@ android:title="@string/pref_reverb_title" >
             android:key="viper4android.headphonefx.reverb.damp"
             android:title="@string/pref_reverb_damp" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_percent"
@@ -207,7 +207,7 @@ android:title="@string/pref_reverb_title" >
             android:key="viper4android.headphonefx.reverb.wet"
             android:title="@string/pref_reverb_wet" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="50"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_percent"
@@ -227,7 +227,7 @@ android:title="@string/pref_reverb_title" >
             android:summaryOn="@string/pref_fidelity_vb_summary_on"
             android:title="@string/pref_fidelity_vb_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="40"
             android:dialogTitle="@string/pref_fidelity_vb_bassfreq"
             android:entries="@array/vbass_freq"
@@ -235,7 +235,7 @@ android:title="@string/pref_reverb_title" >
             android:key="viper4android.headphonefx.fidelity.bass.freq"
             android:title="@string/pref_fidelity_vb_bassfreq_title" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="50"
             android:dialogTitle="@string/pref_fidelity_vb_bassgain"
             android:entries="@array/vbass_boost"
@@ -250,7 +250,7 @@ android:title="@string/pref_reverb_title" >
             android:summaryOn="@string/pref_fidelity_vc_summary_on"
             android:title="@string/pref_fidelity_vc_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="50"
             android:dialogTitle="@string/pref_fidelity_vc_bassgain"
             android:entries="@array/vclarity_boost"
@@ -270,7 +270,7 @@ android:title="@string/pref_reverb_title" >
             android:summaryOn="@string/pref_curesystem_summary_on"
             android:title="@string/pref_curesystem_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/dialog_cure_crossfeed"
             android:entries="@array/cure_crossfeed"
@@ -283,7 +283,7 @@ android:title="@string/pref_reverb_title" >
     <PreferenceCategory
         android:title="@string/pref_fx_limiter_title" >
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="100"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/output_volume"
@@ -291,7 +291,7 @@ android:title="@string/pref_reverb_title" >
             android:key="viper4android.headphonefx.outvol"
             android:title="@string/pref_output_gain" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/channel_pan"

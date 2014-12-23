@@ -29,7 +29,7 @@
             android:summaryOn="@string/pref_equalizer_summary_on"
             android:title="@string/pref_equalizer_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;"
             android:dialogTitle="@string/pref_equalizer_preset_title"
             android:entries="@array/equalizer_preset_modes"
@@ -37,7 +37,7 @@
             android:key="viper4android.headphonefx.fireq"
             android:title="@string/pref_equalizer_preset_title" />
 
-        <com.vipercn.viper4android_v2.preference.EqualizerPreference
+        <com.vipercn.viper4android4x.preference.EqualizerPreference
             android:key="viper4android.headphonefx.fireq.custom" />
 
     </PreferenceCategory>
@@ -51,13 +51,13 @@
             android:summaryOn="@string/pref_convolver_summary_on"
             android:title="@string/pref_convolver_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreferenceWithCustom
+        <com.vipercn.viper4android4x.preference.SummariedListPreferenceWithCustom
             android:defaultValue=""
             android:dialogTitle="@string/pref_convolver_knl_title"
             android:key="viper4android.headphonefx.convolver.kernel"
             android:title="@string/pref_convolver_knl" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_convolver_crosschannel_title"
             android:entries="@array/conv_cross_channel"
@@ -77,7 +77,7 @@
             android:summaryOn="@string/pref_reverb_summary_on"
             android:title="@string/pref_reverb_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_roomsize"
@@ -85,7 +85,7 @@
             android:key="viper4android.headphonefx.reverb.roomsize"
             android:title="@string/pref_reverb_roomsize" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_roomwidth"
@@ -93,7 +93,7 @@
             android:key="viper4android.headphonefx.reverb.roomwidth"
             android:title="@string/pref_reverb_width" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_percent"
@@ -101,7 +101,7 @@
             android:key="viper4android.headphonefx.reverb.damp"
             android:title="@string/pref_reverb_damp" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_percent"
@@ -109,7 +109,7 @@
             android:key="viper4android.headphonefx.reverb.wet"
             android:title="@string/pref_reverb_wet" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="50"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/reverb_percent"
@@ -141,7 +141,7 @@
             android:summaryOn="@string/pref_xloud_summary_on"
             android:title="@string/pref_dsp_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="50"
             android:dialogTitle="@string/dialog_effect"
             android:entries="@array/playbackgain_ratio"
@@ -149,7 +149,7 @@
             android:key="viper4android.headphonefx.playbackgain.ratio"
             android:title="@string/pref_effect_title" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="400"
             android:dialogTitle="@string/dialog_effect"
             android:entries="@array/multi_factor"
@@ -157,7 +157,7 @@
             android:key="viper4android.headphonefx.playbackgain.maxscaler"
             android:title="@string/pref_playback_maxgain" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="80"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/output_db"
@@ -170,7 +170,7 @@
     <PreferenceCategory
         android:title="@string/pref_spkfx_limiter_title" >
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="100"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/output_volume"
@@ -178,7 +178,7 @@
             android:key="viper4android.headphonefx.outvol"
             android:title="@string/pref_output_gain" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="100"
             android:dialogTitle="@string/pref_effect_title"
             android:entries="@array/output_db"

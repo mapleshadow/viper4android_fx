@@ -29,7 +29,7 @@
             android:summaryOn="@string/pref_equalizer_summary_on"
             android:title="@string/pref_equalizer_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;"
             android:dialogTitle="@string/pref_equalizer_preset_title"
             android:entries="@array/equalizer_preset_modes"
@@ -37,7 +37,7 @@
             android:key="viper4android.headphonefx.fireq"
             android:title="@string/pref_equalizer_preset_title" />
 
-        <com.vipercn.viper4android_v2.preference.EqualizerPreference
+        <com.vipercn.viper4android4x.preference.EqualizerPreference
             android:key="viper4android.headphonefx.fireq.custom" />
 
     </PreferenceCategory>
@@ -63,7 +63,7 @@
             android:summaryOn="@string/pref_xloud_summary_on"
             android:title="@string/pref_dsp_enable" />
 
-        <com.vipercn.viper4android_v2.preference.SummariedListPreference
+        <com.vipercn.viper4android4x.preference.SummariedListPreference
             android:defaultValue="50"
             android:dialogTitle="@string/dialog_effect"
             android:entries="@array/playbackgain_ratio"
